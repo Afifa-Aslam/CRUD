@@ -1,0 +1,11 @@
+2020-07-03T02:26:45+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\WordpressWeb\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php:126
+Stack trace:
+#0 C:\xampp\htdocs\WordpressWeb\wp-includes\class-wp-hook.php(287): OE_Menu_Icons_Picker::_save(32, 708, Array)
+#1 C:\xampp\htdocs\WordpressWeb\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\WordpressWeb\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\WordpressWeb\wp-includes\nav-menu.php(589): do_action('wp_update_nav_m...', 32, 708, Array)
+#4 C:\xampp\htdocs\WordpressWeb\wp-includes\nav-menu.php(1114): wp_update_nav_menu_item(32, 708, Array)
+#5 C:\xampp\htdocs\WordpressWeb\wp-includes\class-wp-hook.php(287): _wp_auto_add_pages_to_menu('publish', 'auto-draft', Object(WP_Post))
+#6 C:\xampp\htdocs\WordpressWeb\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\WordpressWeb\wp-includes\plugin.php(478): WP_Hook->do_action(A in C:\xampp\htdocs\WordpressWeb\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php on line 126
+
